@@ -1,0 +1,14 @@
+{
+    "last_request": {
+        "target_id": "camera_device",
+        "device_id": "acikgoz_pantilt",
+        "command_id": "start_recording_command",
+        "args": {
+            "duration_second": 5,
+            "camera_ids": [
+                "cameradevice_swir_1",
+                "cameradevice_rgb_1"
+            ]
+        }
+    }
+}

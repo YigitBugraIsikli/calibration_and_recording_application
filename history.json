@@ -1,0 +1,73 @@
+{
+    "requests": [
+        {
+            "target_id": "entity",
+            "device_id": "acikgoz_pantilt",
+            "command_id": "set_pan_position_degree",
+            "args": {
+                "pan_position_deg_x100": 35900
+            }
+        },
+        {
+            "target_id": "camera_device",
+            "device_id": "acikgoz_pantilt",
+            "command_id": "start_recording_command",
+            "args": {
+                "duration_second": 5,
+                "camera_ids": [
+                    "cameradevice_swir_1",
+                    "cameradevice_rgb_1"
+                ]
+            }
+        },
+        {
+            "target_id": "entity",
+            "device_id": "cameradevice_rgb_1",
+            "command_id": "set_zoom_value",
+            "args": {
+                "value": 16000
+            }
+        },
+        {
+            "target_id": "entity",
+            "device_id": "cameradevice_swir_1",
+            "command_id": "set_zoom_step",
+            "args": {
+                "value": 3000,
+                "mode": "fast"
+            }
+        },
+        {
+            "target_id": "camera_device",
+            "device_id": "acikgoz_pantilt",
+            "command_id": "start_recording_command",
+            "args": {
+                "duration_second": 5,
+                "camera_ids": [
+                    "cameradevice_swir_1",
+                    "cameradevice_rgb_1"
+                ]
+            }
+        },
+        {
+            "target_id": "entity",
+            "device_id": "acikgoz_pantilt",
+            "command_id": "set_pan_position_degree",
+            "args": {
+                "pan_position_deg_x100": 30000
+            }
+        },
+        {
+            "target_id": "camera_device",
+            "device_id": "acikgoz_pantilt",
+            "command_id": "start_recording_command",
+            "args": {
+                "duration_second": 5,
+                "camera_ids": [
+                    "cameradevice_swir_1",
+                    "cameradevice_rgb_1"
+                ]
+            }
+        }
+    ]
+}
